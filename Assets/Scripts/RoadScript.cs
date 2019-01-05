@@ -20,6 +20,7 @@ public class RoadScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        MaxSPawnTime = Random.Range(2, 8);
         nextActionTime = Time.time + Random.Range(minSpawnTime, MaxSPawnTime);
         directionModifier = (Random.Range(0, 2) == 0) ? 1 : -1;
         RoadEnd = RoadStart = gameObject.transform.position;
@@ -27,6 +28,20 @@ public class RoadScript : MonoBehaviour
         RoadStart.x += RoadHalfLength * directionModifier;
         RoadEnd.x -= RoadHalfLength * directionModifier;
         carSpeed = Random.Range(10f, 20f);
+
+        //Spawn cars to Start;
+        var carCount = Random.Range(0, 6);
+        float perc = 1f / (carCount + 3);
+        float halfPerc = perc / 2;
+        for (var i = 1; i <= carCount; i++)
+        {
+            var start = (i * perc)+ halfPerc;
+            var car = SpawnCar();
+            car.SetPositionPercent(start);
+        }
+
+
+
     }
 
     // Update is called once per frame
@@ -37,21 +52,23 @@ public class RoadScript : MonoBehaviour
         if(Time.time > nextActionTime)
         {
             nextActionTime += Random.Range(minSpawnTime, MaxSPawnTime);
-            SpawnCar();
+            if(Random.Range(0,2) != 0)
+                SpawnCar();
         }
     }
 
-    void SpawnCar()
+    CarScript SpawnCar()
     {
         var carType = VehiclePrefabs[Random.Range(0, VehiclePrefabs.Length)];
         var car = Instantiate(carType);
         var carScript = car.GetComponent<CarScript>();
         carScript.TargetPosition = RoadEnd;
         carScript.DirectionModifier = directionModifier;
-        carScript.transform.position = RoadStart;
+        carScript.startPos = carScript.transform.position = RoadStart;
         carScript.CarSpeed = carSpeed;
         carScript.road = this;
         activeCars.Add(car);
+        return carScript;
     }
     private void OnDestroy()
     {

@@ -10,17 +10,36 @@ public class CarScript : MonoBehaviour
     public float DirectionModifier = 1;
     public Vector3 TargetPosition;
     public RoadScript road;
-    Vector3 startPos;
+    public Vector3 startPos;
     float timer;
     // Start is called before the first frame update
     void Start()
     {
-        startPos = gameObject.transform.position;
     }
-
+    public void SetPositionPercent(float percent)
+    {
+        timer = percent;
+        gameObject.transform.position = Vector3.Lerp(startPos, TargetPosition, timer);
+    }
+    bool isBreaking;
+    float breakTime = 1;
     // Update is called once per frame
     void Update()
     {
+        if(isBreaking)
+        {
+
+            timer += Time.deltaTime / breakTime;
+            if(timer >= 1)
+            {
+                isBreaking = false;
+                isStopped = true;
+            }
+
+            gameObject.transform.position = Vector3.Lerp(breakStart, breakTarget, timer);
+            return;
+
+        }
         if (isStopped)
             return;
         timer += Time.deltaTime / CarSpeed;
@@ -40,8 +59,23 @@ public class CarScript : MonoBehaviour
         if (collision.gameObject.name.StartsWith("Car"))// == "CarSafeZone")
         {
             isStopped = true;
+            //if(!isStopped)
+              //  ApplyBreaks();
             road.StopSpawn = true;
         }
+    }
+
+    Vector3 breakTarget;
+    Vector3 breakStart;
+    void ApplyBreaks()
+    {
+        if (isBreaking)
+            return;
+        isBreaking = true;
+        timer = 0;
+        breakTime = .5f;
+        breakStart = transform.position;
+        breakTarget = new Vector3(gameObject.transform.position.x - DirectionModifier, gameObject.transform.position.y, gameObject.transform.position.z);
     }
     private void OnCollisionEnter(Collision collision)
     {

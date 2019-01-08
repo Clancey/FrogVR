@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(Rigidbody))]
 public class CarScript : MonoBehaviour
 {
     bool isStopped;
@@ -12,6 +13,7 @@ public class CarScript : MonoBehaviour
     public RoadScript road;
     public Vector3 startPos;
     float timer;
+    GameObject currentModel;
     // Start is called before the first frame update
     void Start()
     {
@@ -56,8 +58,11 @@ public class CarScript : MonoBehaviour
 
     private void OnTriggerEnter(Collider collision)
     {
-        if (collision.gameObject.name.StartsWith("Car"))// == "CarSafeZone")
+        if (collision.gameObject.tag == "Car")// == "CarSafeZone")
         {
+            var otherRoad = collision.gameObject.GetComponent<RoadScript>();
+            if (otherRoad != road)
+                return;
             isStopped = true;
             //if(!isStopped)
               //  ApplyBreaks();
@@ -79,7 +84,7 @@ public class CarScript : MonoBehaviour
     }
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.name.StartsWith("Pen") || collision.gameObject.name.StartsWith("Play"))// == "Player")
+        if ((collision.gameObject.tag == "Player"))// == "Player")
         {
             isStopped = true;
             road.StopSpawn = true;

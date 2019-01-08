@@ -45,7 +45,7 @@ public class VRMovement : MonoBehaviour
     {
         if (!isSetup)
         {
-            isSetup = (Time.time - startTime) > 1;
+            isSetup = (Time.time - startTime) > 3;
             return;
         }
         var rotPositionChange = cameraTransform.localRotation * neckToEye - lastRotation * neckToEye;

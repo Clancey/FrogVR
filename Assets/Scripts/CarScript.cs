@@ -60,8 +60,8 @@ public class CarScript : MonoBehaviour
     {
         if (collision.gameObject.tag == "Car")// == "CarSafeZone")
         {
-            var otherRoad = collision.gameObject.GetComponent<RoadScript>();
-            if (otherRoad != road)
+            var otherCar = collision.gameObject.GetComponent<CarScript>();
+            if (otherCar.road != road)
                 return;
             isStopped = true;
             //if(!isStopped)

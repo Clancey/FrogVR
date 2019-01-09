@@ -37,7 +37,7 @@ public class VRMovement : MonoBehaviour
     {
         DetectJump();
         UpdateMovement();
-        //UpdateCollider();
+        UpdateCollider();
     }
 
 

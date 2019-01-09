@@ -5,6 +5,7 @@ using UnityEngine;
 public class RoadScript : MonoBehaviour
 {
     public GameObject[] VehiclePrefabs = new GameObject[0];
+    public GameObject[] EmergencyVehiclePrefabs = new GameObject[0];
     int directionModifier;
     public float RoadHalfLength = 35;
     Vector3 RoadStart;

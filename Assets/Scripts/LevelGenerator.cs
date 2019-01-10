@@ -10,7 +10,7 @@ public class LevelGenerator : MonoBehaviour
     public GameObject Road;
     Dictionary<GameObject, int> gameObjectMaxValues = new Dictionary<GameObject, int>();
     GameObject[] gameObjects;
-    float distanceToGenerate = 30;
+    float distanceToGenerate = 50;
     Vector3 currentPos = new Vector3(0,0,-20);
     FixedSizedQueue<GameObject> currentItems = new FixedSizedQueue<GameObject>(60);
     GameObject player;

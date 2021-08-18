@@ -1,0 +1,190 @@
+ManifestFileVersion: 0
+CRC: 3996577503
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 59a8464947819fb681b51f0bdc29b0ff
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 0bffcb6dc5c19c86c67e9d04c680dbf0
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 20
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 109
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6c4e61108c773b44ea56a358d2cec76c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0b18a9703817b4e49afa83028949f791, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b8329080bef86e84091f2f7d9c246b92, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2a4db7a114972834c8e4117be1d82ba3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3de4cc72829dff14a9141c9bcba2fd79, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0702b282f65fea14fb2a1264fc8b0a58, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 86710e43de46f6f4bac7c8e50813a599, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: ef0b16736a3c80142a3d93f8b77cf995, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3312d7739989d2b4e91e6319e9a96d76, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3da6ce048533cea43878fb2a54edef80, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3f3236748e205bc4f8edae2b70de113b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1aa08ab6e0800fa44ae55d278d1423e3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2aea897927fa7bd41a57ea8faafdb365, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d199490a83bb2b844b9695cbf13b01ef, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 30649d3a9faa99c48a7b1166b86bf2a0, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 78b94ded620fdd64ca175c8d9bad0ee6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 63dda72f193755248a0d560ba97f8722, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9085046f02f69544eb97fd06b6048fe2, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2fafe2cfe61f6974895a912c3755e8f1, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 223
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+- Class: 225
+  Script: {instanceID: 0}
+Assets:
+- Assets/Oculus/Avatar/Resources/FallbackTextures/fallback_diffuse_roughness_2048.png
+- Assets/HTC.UnityPlugin/ViveInputUtility/Resources/Models/VIUModelWMRControllerRight.prefab
+- Assets/HTC.UnityPlugin/ViveInputUtility/Resources/Models/ObjModelIndexControllerRight.obj
+- Assets/Oculus/Avatar/Resources/FallbackTextures/fallback_diffuse_roughness_256.png
+- Assets/HTC.UnityPlugin/ViveInputUtility/Resources/Models/VIUModelViveFocusFinch.prefab
+- Assets/Oculus/Avatar/Resources/Materials/Version1.5/Avatar_PC_SingleComponent.shader
+- Assets/LIV/Resources/Materials/LIV_Blit.shader
+- Assets/Oculus/VR/Resources/OVRMRUnlitTransparent.shader
+- Assets/Oculus/Avatar/Resources/FallbackTextures/fallback_normal_2048.png
+- Assets/HTC.UnityPlugin/ViveInputUtility/Resources/Models/VIUModelViveCosmosControllerLeft.prefab
+- Assets/Oculus/VR/Resources/OVRMRChromaKey.cginc
+- Assets/HTC.UnityPlugin/ViveInputUtility/Resources/Models/ObjModelViveTracker.fbx
+- Assets/Oculus/SampleFramework/Core/Video/Resources/Multiview Stereo.shader
+- Assets/HTC.UnityPlugin/ViveInputUtility/Resources/Models/ObjModelOculusGoController.fbx
+- Assets/HTC.UnityPlugin/ViveInputUtility/Resources/Models/ObjModelViveController.fbx
+- Assets/HTC.UnityPlugin/ViveInputUtility/Resources/Models/ObjModelOculusQuestControllerRight.fbx
+- Assets/HTC.UnityPlugin/ViveInputUtility/Resources/Models/VIUModelViveController.prefab
+- Assets/HTC.UnityPlugin/ViveInputUtility/Resources/Unlit-AlphaWithFade.shader
+- Assets/Oculus/Avatar/Resources/Materials/Version1.5/Avatar_Mobile_Loader.shader
+- Assets/HTC.UnityPlugin/ViveInputUtility/Resources/Models/VIUModelIndexControllerLeft.prefab
+- Assets/HTC.UnityPlugin/ViveInputUtility/Resources/Models/ObjModelKnucklesRight.fbx
+- Assets/HTC.UnityPlugin/ViveInputUtility/Resources/Models/VIUModelDaydreamController.prefab
+- Assets/HTC.UnityPlugin/ViveInputUtility/Resources/Sprites/binding_ui_icons.png
+- Assets/Oculus/VR/Resources/Cubemap Blit.shader
+- Assets/Oculus/VR/Resources/OVRMRUnlit.shader
+- Assets/HTC.UnityPlugin/ViveInputUtility/Resources/Animation/BindingInterfaceSlideRoleSetPanel.anim
+- Assets/HTC.UnityPlugin/ViveInputUtility/Resources/Models/VIUModelOculusQuestControllerLeft.prefab
+- Assets/HTC.UnityPlugin/ViveInputUtility/Resources/Models/VIUModelViveBaseStation.prefab
+- Assets/HTC.UnityPlugin/ViveInputUtility/Resources/Models/VIUModelOculusTouchRight.prefab
+- Assets/Oculus/Avatar/Resources/Materials/AvatarSurfaceShaderSelfOccluding.shader
+- Assets/Oculus/VR/Resources/Unlit Transparent Color.shader
+- Assets/HTC.UnityPlugin/ViveInputUtility/Resources/Models/ObjModelViveBaseStation.fbx
+- Assets/HTC.UnityPlugin/ViveInputUtility/Resources/Models/VIUModelWMRControllerLeft.prefab
+- Assets/HTC.UnityPlugin/ViveInputUtility/Resources/Animation/BindingInterfaceSlideDevicePanelAnim.controller
+- Assets/HTC.UnityPlugin/ViveInputUtility/Resources/Models/VIUModelOculusSensor.prefab
+- Assets/Oculus/Avatar/Resources/Materials/AvatarSurfaceShaderPBS.shader
+- Assets/HTC.UnityPlugin/ViveInputUtility/Resources/Models/VIUModelKnucklesRight.prefab
+- Assets/LIV/Resources/Materials/LIV_ClearBackground.shader
+- Assets/Oculus/VR/Resources/OVRMRCameraFrameLit.shader
+- Assets/HTC.UnityPlugin/ViveInputUtility/Resources/VIUBindingInterface.prefab
+- Assets/HTC.UnityPlugin/ViveInputUtility/Resources/Models/VIUModelOculusQuestOrRiftSControllerRight.prefab
+- Assets/HTC.UnityPlugin/ViveInputUtility/Resources/Models/ObjModelWMRControllerLeft.fbx
+- Assets/Oculus/Avatar/Resources/Materials/Version1.5/Avatar_Mobile_CombinedMesh.shader
+- Assets/Oculus/Avatar/Resources/Materials/Expressive/Avatar_Mobile_CombinedMeshExpressive.shader
+- Assets/HTC.UnityPlugin/ViveInputUtility/Resources/Models/VIUModelUnknown.prefab
+- Assets/HTC.UnityPlugin/ViveInputUtility/Resources/Models/ObjModelViveCosmosControllerRight.obj
+- Assets/Oculus/VR/Resources/Underlay Transparent Occluder.shader
+- Assets/HTC.UnityPlugin/ViveInputUtility/Resources/Models/VIUModelKnucklesLeft.prefab
+- Assets/Oculus/VR/Resources/Texture2D Blit.shader
+- Assets/Oculus/Avatar/Resources/Materials/Expressive/Avatar_PC_SingleComponentExpressive.shader
+- Assets/Resources/OVRBuildConfig.asset
+- Assets/Oculus/Avatar/Resources/Materials/AvatarPBRV2Simple.shader
+- Assets/HTC.UnityPlugin/ViveInputUtility/Resources/Models/pyramid.obj
+- Assets/HTC.UnityPlugin/ViveInputUtility/Resources/Animation/BindingInterfaceSlideDevicePanel.anim
+- Assets/Oculus/Avatar/Resources/FallbackTextures/fallback_normal_256.png
+- Assets/Oculus/Avatar/Resources/Materials/Expressive/Avatar_Mobile_SingleComponentExpressive.shader
+- Assets/HTC.UnityPlugin/ViveInputUtility/Resources/Models/ObjModelOculusTouchRight.fbx
+- Assets/HTC.UnityPlugin/ViveInputUtility/Resources/Models/VIUModelOculusGearVrController.prefab
+- Assets/Oculus/VR/Resources/OVRMRCameraFrame.shader
+- Assets/Oculus/Avatar/Resources/Materials/AvatarSurfaceShaderPBSV2.shader
+- Assets/Oculus/VR/Resources/OVRMRClipPlane.shader
+- Assets/HTC.UnityPlugin/ViveInputUtility/Resources/Models/ObjModelViveFocusFinch.fbx
+- Assets/HTC.UnityPlugin/ViveInputUtility/Resources/Models/VIUModelOculusGoController.prefab
+- Assets/Oculus/Avatar/Resources/FallbackTextures/fallback_diffuse_roughness_1024.png
+- Assets/HTC.UnityPlugin/ViveInputUtility/Resources/Animation/BindingInterfaceSlideRoleSetPanelAnim.controller
+- Assets/HTC.UnityPlugin/ViveInputUtility/Resources/Models/ObjModelOculusSensor.fbx
+- Assets/Oculus/Avatar/Resources/Materials/Version1.5/Avatar_Mobile_SingleComponent.shader
+- Assets/HTC.UnityPlugin/ViveInputUtility/Resources/Models/ObjModelOculusGearVrController.fbx
+- Assets/HTC.UnityPlugin/ViveInputUtility/Resources/Models/VIUModelOculusTouchLeft.prefab
+- Assets/Oculus/Avatar/Resources/Materials/AvatarMaterialStateShader.cginc
+- Assets/Oculus/Avatar/Resources/Materials/Expressive/AvatarEyeLens.shader
+- Assets/Oculus/Avatar/Resources/Materials/AvatarSurfaceShader.shader
+- Assets/HTC.UnityPlugin/ViveInputUtility/Resources/Models/ObjModelDaydreamController.fbx
+- Assets/Oculus/Avatar/Resources/FallbackTextures/fallback_normal_1024.tif
+- Assets/HTC.UnityPlugin/ViveInputUtility/Resources/VIUExCamConfigInterface.prefab
+- Assets/Oculus/VR/Resources/Underlay Impostor.shader
+- Assets/HTC.UnityPlugin/ViveInputUtility/Resources/Models/VIUModelOculusQuestControllerRight.prefab
+- Assets/HTC.UnityPlugin/ViveInputUtility/Resources/Models/VIUModelViveCosmosControllerRight.prefab
+- Assets/HTC.UnityPlugin/ViveInputUtility/Resources/Models/VIUModelOculusQuestOrRiftSControllerLeft.prefab
+- Assets/HTC.UnityPlugin/ViveInputUtility/Resources/Models/VIUModelIndexControllerRight.prefab
+- Assets/HTC.UnityPlugin/ViveInputUtility/Resources/Models/VIUModelViveTracker.prefab
+Dependencies: []

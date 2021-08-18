@@ -56,11 +56,12 @@ public class CarScript : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter(Collider collision)
+    private void OnTriggerEnter(Collider c)
     {
-        if (collision.gameObject.tag == "Car")// == "CarSafeZone")
+        if (c.gameObject.tag == "Car")// == "CarSafeZone")
         {
-            var otherCar = collision.gameObject.GetComponent<CarScript>();
+            var collider = c.gameObject.GetComponent<Collider>();
+            var otherCar = c.gameObject.GetComponent<CarScript>();
             if (otherCar.road != road)
                 return;
             isStopped = true;

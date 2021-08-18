@@ -1,4 +1,4 @@
-﻿//========= Copyright 2016-2018, HTC Corporation. All rights reserved. ===========
+﻿//========= Copyright 2016-2019, HTC Corporation. All rights reserved. ===========
 
 #if VIU_STEAMVR_2_0_0_OR_NEWER
 using System;
@@ -85,7 +85,6 @@ namespace HTC.UnityPlugin.Vive.SteamVRExtension
 
                 var json = JsonConvert.SerializeObject(this, Formatting.Indented, new JsonSerializerSettings { NullValueHandling = NullValueHandling.Ignore });
                 File.WriteAllText(Path.Combine(dirPath, fileName), json);
-
             }
             catch (Exception e)
             {

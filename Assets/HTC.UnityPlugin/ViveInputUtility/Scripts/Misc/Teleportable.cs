@@ -1,4 +1,4 @@
-﻿//========= Copyright 2016-2018, HTC Corporation. All rights reserved. ===========
+﻿//========= Copyright 2016-2019, HTC Corporation. All rights reserved. ===========
 
 using HTC.UnityPlugin.Pointer3D;
 using HTC.UnityPlugin.VRModuleManagement;
@@ -11,7 +11,7 @@ using Valve.VR;
 
 namespace HTC.UnityPlugin.Vive
 {
-    [AddComponentMenu("HTC/VIU/Teleportable", 3)]
+    [AddComponentMenu("VIU/Teleportable", 3)]
     public class Teleportable : MonoBehaviour, ReticlePoser.IMaterialChanger
         , IPointer3DPressExitHandler
     {

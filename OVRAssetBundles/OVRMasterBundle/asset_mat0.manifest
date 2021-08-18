@@ -1,0 +1,35 @@
+ManifestFileVersion: 0
+CRC: 46716578
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 8c9191a85ff832dc6e6e291f252ee47c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 7456ae20b019c8f6d611f437758de8f2
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/SimpleTown/Materials/Vehicle_Car01_Green.mat
+- Assets/Materials/Road.mat
+- Assets/Materials/Water.mat
+- Assets/Materials/Green.mat
+- Assets/SimpleTown/Materials/Vehice_Ambulance.mat
+- Assets/Materials/DarkGreen.mat
+- Assets/Materials/DarkRoad.mat
+- Assets/Materials/DarkWater.mat
+- Assets/SimpleTown/Materials/Vehicle_Car01_Red.mat
+- Assets/SimpleTown/Materials/Vehicle_Bus_Brown.mat
+- Assets/SimpleTown/Materials/Vehicle_Bus_Blue.mat
+- Assets/HTC.UnityPlugin/ViveInputUtility/Materials/Reticle.mat
+- Assets/SimpleTown/Materials/Vehicle_Car01_Blue.mat
+- Assets/HTC.UnityPlugin/ViveInputUtility/Materials/GuideLine.mat
+Dependencies:
+- C:/Projects/Unity/FrogVR/OVRAssetBundles/OVRMasterBundle/asset_resources
+- C:/Projects/Unity/FrogVR/OVRAssetBundles/OVRMasterBundle/asset_png0

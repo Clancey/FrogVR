@@ -1,11 +1,11 @@
-﻿//========= Copyright 2016-2018, HTC Corporation. All rights reserved. ===========
+﻿//========= Copyright 2016-2019, HTC Corporation. All rights reserved. ===========
 
 using UnityEngine;
 using HTC.UnityPlugin.Utility;
 
 namespace HTC.UnityPlugin.Vive
 {
-    [AddComponentMenu("HTC/VIU/Device Tracker/Vive Rigid Pose Tracker (Rigidbody)", 8)]
+    [AddComponentMenu("VIU/Device Tracker/Vive Rigid Pose Tracker (Rigidbody)", 8)]
     [RequireComponent(typeof(Rigidbody))]
     public class ViveRigidPoseTracker : VivePoseTracker
     {

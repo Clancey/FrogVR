@@ -5,7 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/SimpleTown/DemoScene/SimpleTown_DemoScene.unity
     guid: 21ba8959b0b9c5e41889da424bb00b0b
+  - enabled: 1
+    path: Assets/Scenes/VRRoadPrototype.unity
+    guid: 48c8c36b1c1039f4ba4dbafcb6fe68d1
   m_configObjects: {}

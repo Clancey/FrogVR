@@ -38,7 +38,7 @@ public class RoadScript : MonoBehaviour
         RoadStart.y = RoadEnd.y = .85f;
         RoadStart.x += RoadHalfLength * directionModifier;
         RoadEnd.x -= RoadHalfLength * directionModifier;
-        carSpeed = Random.Range(30f, 40f);
+        carSpeed = Random.Range(40f, 55f);
 
         //Spawn cars to Start;
         var carCount = Random.Range(0, 6);

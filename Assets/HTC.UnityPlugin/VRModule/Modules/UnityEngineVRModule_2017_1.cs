@@ -1,4 +1,4 @@
-﻿//========= Copyright 2016-2018, HTC Corporation. All rights reserved. ===========
+﻿//========= Copyright 2016-2019, HTC Corporation. All rights reserved. ===========
 
 #if UNITY_2017_1_OR_NEWER
 
@@ -238,9 +238,19 @@ namespace HTC.UnityPlugin.VRModuleManagement
                     // FIXME: getting wrong name in Unity 2017.1f1
                     //currDeviceState.serialNumber = InputTracking.GetNodeName(m_nodeStateList[i].uniqueID) ?? string.Empty;
                     //Debug.Log("connected " + InputTracking.GetNodeName(m_nodeStateList[i].uniqueID));
-                    currState.serialNumber = XRDevice.model + " " + m_nodeStateList[i].uniqueID.ToString("X8");
-                    currState.modelNumber = XRDevice.model + " " + m_nodeStateList[i].nodeType;
-                    currState.renderModelName = XRDevice.model + " " + m_nodeStateList[i].nodeType;
+
+                    if (!XRDevice.model.Equals("None"))
+                    {
+                        currState.serialNumber = XRDevice.model + " " + m_nodeStateList[i].uniqueID.ToString("X8");
+                        currState.modelNumber = XRDevice.model + " " + m_nodeStateList[i].nodeType;
+                        currState.renderModelName = XRDevice.model + " " + m_nodeStateList[i].nodeType;
+                    }
+                    else
+                    {
+                        currState.serialNumber = XRSettings.loadedDeviceName + " " + m_nodeStateList[i].uniqueID.ToString("X8");
+                        currState.modelNumber = XRSettings.loadedDeviceName + " " + m_nodeStateList[i].nodeType;
+                        currState.renderModelName = XRSettings.loadedDeviceName + " " + m_nodeStateList[i].nodeType;
+                    }
 
                     SetupKnownDeviceModel(currState);
                 }
@@ -256,6 +266,11 @@ namespace HTC.UnityPlugin.VRModuleManagement
 
                 var rotation = default(Quaternion);
                 if (m_nodeStateList[i].TryGetRotation(out rotation)) { currState.rotation = rotation; }
+
+#if UNITY_2017_2_OR_NEWER
+                var angularVelocity = default(Vector3);
+                if (m_nodeStateList[i].TryGetAngularVelocity(out angularVelocity)) { currState.angularVelocity = angularVelocity; }
+#endif
             }
 
             m_nodeStateList.Clear();

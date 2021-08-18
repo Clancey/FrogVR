@@ -1,0 +1,103 @@
+ManifestFileVersion: 0
+CRC: 3528371472
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: af31be5db84f19e3d5fa77af2f4523aa
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: cc30196fcd09f9a62dc7084938e5ceea
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 20
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 81
+  Script: {instanceID: 0}
+- Class: 82
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 370abdd03a3cff347bb12c277daee10d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e319c5121fc338c449d17278b874e67a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 56d295652c296b049959c933d5db7951, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b94db5e6392a8004a8880d13e66933ff, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 387fb5d74b1a932479013876b27a0e1e, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: abf56d495fffc204c9e46b626dd9e48b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c8c3f25a28b4f824f825e53629c17c25, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e038909a6547ef64f850aedb13ccc471, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f26c248b16aef5b419526eee6ea07d5f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: aa380deb7f1437a4c8678ec04f101197, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8fdc450c311d1e94291658aa5ec57b9b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 99810d6c41db3ef47b4c63dd83298b8f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 15e4d85dc1bd6124aa83b6d6d84f849f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6f62138db21b7ec439beba5c9b61c2d9, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 326f9add24fafee418bdcd053a0324a0, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 174b153ed154e784a8bd7e3b391fe253, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 120
+  Script: {instanceID: 0}
+- Class: 124
+  Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefabs/Vehicles/car_blue.prefab
+- Assets/HTC.UnityPlugin/ViveInputUtility/Prefabs/ViveCameraRig.prefab
+- Assets/Prefabs/XR Rig.prefab
+- Assets/SimpleTown/Prefabs/Vehicles/car_blue.prefab
+- Assets/Prefabs/Vehicles/car_green.prefab
+- Assets/Prefabs/Grass.prefab
+- Assets/HTC.UnityPlugin/ViveInputUtility/Prefabs/VivePointers.prefab
+- Assets/Prefabs/Vehicles/bus_brown.prefab
+- Assets/SimpleTown/Prefabs/Vehicles/ambo_mesh.prefab
+- Assets/Prefabs/Vehicles/ambulance.prefab
+- Assets/Prefabs/Water.prefab
+- Assets/Prefabs/Vehicles/car_red.prefab
+- Assets/SimpleTown/Prefabs/Vehicles/car_green.prefab
+- Assets/SimpleTown/Prefabs/Vehicles/car_red.prefab
+- Assets/Prefabs/Road.prefab
+- Assets/SimpleTown/Prefabs/Vehicles/bus_blue.prefab
+- Assets/Prefabs/Vehicles/bus_blue.prefab
+- Assets/SimpleTown/Prefabs/Vehicles/bus_brown.prefab
+Dependencies:
+- C:/Projects/Unity/FrogVR/OVRAssetBundles/OVRMasterBundle/asset_resources
+- C:/Projects/Unity/FrogVR/OVRAssetBundles/OVRMasterBundle/asset_mat0
+- C:/Projects/Unity/FrogVR/OVRAssetBundles/OVRMasterBundle/asset_fbx0
+- C:/Projects/Unity/FrogVR/OVRAssetBundles/OVRMasterBundle/asset_wav0

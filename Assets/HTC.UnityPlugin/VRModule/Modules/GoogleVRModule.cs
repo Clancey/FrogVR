@@ -1,9 +1,8 @@
-﻿//========= Copyright 2016-2018, HTC Corporation. All rights reserved. ===========
+﻿//========= Copyright 2016-2019, HTC Corporation. All rights reserved. ===========
 
-#if VIU_GOOGLEVR && UNITY_5_6_OR_NEWER
-
-using UnityEngine;
 using HTC.UnityPlugin.Utility;
+#if VIU_GOOGLEVR && UNITY_5_6_OR_NEWER
+using UnityEngine;
 using HTC.UnityPlugin.Vive;
 
 #if UNITY_2017_2_OR_NEWER
@@ -19,8 +18,26 @@ using InputTracking = UnityEngine.VR.InputTracking;
 
 namespace HTC.UnityPlugin.VRModuleManagement
 {
+    public partial class VRModule : SingletonBehaviour<VRModule>
+    {
+        public static readonly bool isGoogleVRPluginDetected =
+#if VIU_GOOGLEVR
+            true;
+#else
+            false;
+#endif
+        public static readonly bool isGoogleVRSupported =
+#if VIU_GOOGLEVR_SUPPORT
+            true;
+#else
+            false;
+#endif
+    }
+
     public sealed class GoogleVRModule : VRModule.ModuleBase
     {
+        public override int moduleIndex { get { return (int)VRModuleActiveEnum.DayDream; } }
+
 #if VIU_GOOGLEVR && UNITY_5_6_OR_NEWER
         private const uint HEAD_INDEX = 0u;
 
@@ -74,8 +91,8 @@ namespace HTC.UnityPlugin.VRModuleManagement
                 VRModule.Instance.gameObject.AddComponent<GvrControllerInput>();
             }
 
-            m_rightDevice = GvrControllerInput.GetDevice(GvrControllerHand.Right);
-            m_leftDevice = GvrControllerInput.GetDevice(GvrControllerHand.Left);
+            m_rightDevice = GvrControllerInput.GetDevice(GvrControllerHand.Dominant);
+            m_leftDevice = GvrControllerInput.GetDevice(GvrControllerHand.Dominant);
 
             var armModels = VRModule.Instance.GetComponents<GvrArmModel>();
 
@@ -86,6 +103,11 @@ namespace HTC.UnityPlugin.VRModuleManagement
             else
             {
                 m_rightArm = VRModule.Instance.GetComponent<GvrArmModel>();
+
+                if (m_rightArm == null)
+                {
+                    m_rightArm = VRModule.Instance.gameObject.AddComponent<GvrArmModel>();
+                }
             }
             m_rightArm.ControllerInputDevice = m_rightDevice;
 
@@ -96,6 +118,11 @@ namespace HTC.UnityPlugin.VRModuleManagement
             else
             {
                 m_leftArm = VRModule.Instance.GetComponent<GvrArmModel>();
+
+                if (m_leftArm == null)
+                {
+                    m_leftArm = VRModule.Instance.gameObject.AddComponent<GvrArmModel>();
+                }
             }
             m_leftArm.ControllerInputDevice = m_leftDevice;
         }
@@ -146,6 +173,7 @@ namespace HTC.UnityPlugin.VRModuleManagement
                     currState.modelNumber = XRDevice.model + " Controller Right";
                     currState.deviceModel = VRModuleDeviceModel.DaydreamController;
                     currState.renderModelName = string.Empty;
+                    currState.input2DType = VRModuleInput2DType.TouchpadOnly;
                     m_rightIndex = RIGHT_HAND_INDEX;
                 }
             }
@@ -169,6 +197,7 @@ namespace HTC.UnityPlugin.VRModuleManagement
                     currState.modelNumber = XRDevice.model + " Controller Left";
                     currState.deviceModel = VRModuleDeviceModel.DaydreamController;
                     currState.renderModelName = string.Empty;
+                    currState.input2DType = VRModuleInput2DType.TouchpadOnly;
                     m_leftIndex = RIGHT_HAND_INDEX;
                 }
             }

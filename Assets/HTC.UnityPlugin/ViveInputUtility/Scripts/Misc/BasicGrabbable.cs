@@ -1,4 +1,4 @@
-﻿//========= Copyright 2016-2018, HTC Corporation. All rights reserved. ===========
+﻿//========= Copyright 2016-2019, HTC Corporation. All rights reserved. ===========
 
 using HTC.UnityPlugin.ColliderEvent;
 using HTC.UnityPlugin.Utility;
@@ -10,7 +10,7 @@ using GrabberPool = HTC.UnityPlugin.Utility.ObjectPool<HTC.UnityPlugin.Vive.Basi
 
 namespace HTC.UnityPlugin.Vive
 {
-    [AddComponentMenu("HTC/VIU/Object Grabber/Basic Grabbable", 0)]
+    [AddComponentMenu("VIU/Object Grabber/Basic Grabbable", 0)]
     public class BasicGrabbable : GrabbableBase<BasicGrabbable.Grabber>
         , IColliderEventDragStartHandler
         , IColliderEventDragFixedUpdateHandler

@@ -1,5 +1,5 @@
 ﻿using UnityEngine;
-using VR = UnityEngine.VR;
+//using VR = UnityEngine.VR;
 
 [RequireComponent(typeof(CapsuleCollider))]
 public class VRWalkingController : MonoBehaviour

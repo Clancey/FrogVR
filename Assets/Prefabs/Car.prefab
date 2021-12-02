@@ -95,26 +95,6 @@ CapsuleCollider:
   m_Height: 2.6343637
   m_Direction: 0
   m_Center: {x: -0.021946907, y: 0, z: 0}
---- !u!114 &7822779642360875933
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1933086586778271703}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e503ea6418d27594caa33b93cac1b06a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enableSpatialization: 1
-  gain: 0
-  useInvSqr: 0
-  near: 0.25
-  far: 250
-  volumetricRadius: 0
-  reverbSend: 0
-  enableRfl: 0
 --- !u!1001 &2164691989475943771
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -126,6 +106,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: car_blue
+      objectReference: {fileID: 0}
+    - target: {fileID: 2037965069934753937, guid: 5664d200842f6614f9855b91bb60b098,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8013539037565284626, guid: 5664d200842f6614f9855b91bb60b098,
         type: 3}
@@ -187,6 +172,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8075470045032051121, guid: 5664d200842f6614f9855b91bb60b098,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8888538553538200861, guid: 5664d200842f6614f9855b91bb60b098,
         type: 3}
       propertyPath: m_LocalPosition.y
@@ -206,3 +196,23 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2164691989475943771}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &7822779642360875933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1933086586778271703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e503ea6418d27594caa33b93cac1b06a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enableSpatialization: 1
+  gain: 0
+  useInvSqr: 0
+  near: 0.25
+  far: 250
+  volumetricRadius: 0
+  reverbSend: 0
+  enableRfl: 0

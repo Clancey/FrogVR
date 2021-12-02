@@ -1,10 +1,10 @@
 Using pre-set license
-Built from '2020.3/staging' branch; Version is '2020.3.18f1 (a7d1c678663c) revision 10998214'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19042.1165; Version 2009; 64bit' Language: 'en' Physical Memory: 16283 MB
+Built from '2020.3/staging' branch; Version is '2020.3.23f1 (c5d91304a876) revision 12966163'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Enterprise; OS build 22504.1010; Version 2009; 64bit' Language: 'en' Physical Memory: 65445 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2020.3.18f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2020.3.23f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
@@ -15,111 +15,116 @@ C:/Projects/Unity/FrogVR
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49873
+65300
 Successfully changed project path to: C:/Projects/Unity/FrogVR
 C:/Projects/Unity/FrogVR
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 91.71 ms, found 7 plugins.
-Preloading 2 native plugins for Editor in 1.81 ms.
-Initialize engine version: 2020.3.18f1 (a7d1c678663c)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Resources/UnitySubsystems
+Refreshing native plugins compatible for Editor in 85.92 ms, found 8 plugins.
+Preloading 2 native plugins for Editor in 1.84 ms.
+Initialize engine version: 2020.3.23f1 (c5d91304a876)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Projects/Unity/FrogVR/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1070 with Max-Q Design (ID=0x1ba1)
+    Renderer: NVIDIA GeForce RTX 3090 (ID=0x2204)
     Vendor:   
-    VRAM:     8081 MB
-    Driver:   27.21.14.6089
+    VRAM:     24348 MB
+    Driver:   30.0.14.9676
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56548
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56412
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001618 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001459 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 72.43 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 61.49 ms, found 8 plugins.
 Preloading 2 native plugins for Editor in 0.09 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.696 seconds
+- Completed reload, in  0.436 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1696ms)
-		BeginReloadAssembly (46ms)
+	ReloadAssembly (436ms)
+		BeginReloadAssembly (40ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (404ms)
-			LoadAssemblies (44ms)
+		EndReloadAssembly (343ms)
+			LoadAssemblies (38ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (141ms)
+			SetupTypeCache (96ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (24ms)
-			SetupLoadedEditorAssemblies (177ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (153ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (73ms)
-				BeforeProcessingInitializeOnLoad (7ms)
-				ProcessInitializeOnLoadAttributes (68ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
+				RefreshPlugins (62ms)
+				BeforeProcessingInitializeOnLoad (11ms)
+				ProcessInitializeOnLoadAttributes (59ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007212 seconds.
+Registered in 0.008582 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.16 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 1.27 ms, found 8 plugins.
 Preloading 2 native plugins for Editor in 0.10 ms.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+[XR] OVRP version 1.64.0
 Mono: successfully reloaded assembly
-- Completed reload, in  1.125 seconds
+- Completed reload, in  0.861 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1125ms)
-		BeginReloadAssembly (143ms)
+	ReloadAssembly (862ms)
+		BeginReloadAssembly (96ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (923ms)
-			LoadAssemblies (90ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (724ms)
+			LoadAssemblies (70ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (322ms)
+			SetupTypeCache (205ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (63ms)
-			SetupLoadedEditorAssemblies (344ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (328ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (74ms)
-				ProcessInitializeOnLoadAttributes (222ms)
-				ProcessInitializeOnLoadMethodAttributes (37ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (200ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 1.27 ms, found 7 plugins.
-Preloading 2 native plugins for Editor in 0.13 ms.
-Unloading 2940 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 125.5 MB.
-System memory in use after: 125.7 MB.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.32 ms, found 8 plugins.
+Preloading 2 native plugins for Editor in 0.11 ms.
+Unloading 3184 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.6 MB.
+System memory in use after: 132.8 MB.
 
-Unloading 96 unused Assets to reduce memory usage. Loaded Objects now: 3311.
-Total: 10.903700 ms (FindLiveObjects: 0.367300 ms CreateObjectMapping: 0.249800 ms MarkObjects: 10.095500 ms  DeleteObjects: 0.189200 ms)
+Unloading 100 unused Assets to reduce memory usage. Loaded Objects now: 3556.
+Total: 5.899200 ms (FindLiveObjects: 0.257900 ms CreateObjectMapping: 0.070200 ms MarkObjects: 5.446800 ms  DeleteObjects: 0.123400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -133,73 +138,169 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/samplescene.unity
-  artifactKey: Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/samplescene.unity using Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5d81c5dd5becd7f2ee59ad0e06b3484') in 0.021043 seconds 
-  Import took 0.027551 seconds .
+  path: Assets/Prefabs/Car.prefab
+  artifactKey: Guid(20e1b85b6df6b124d84350f52e4e075c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Car.prefab using Guid(20e1b85b6df6b124d84350f52e4e075c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0373607601c20e38bec7fe9479575637') in 0.083109 seconds 
+  Import took 0.087569 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000265 seconds.
-  path: Assets/Scenes/VRRoadPrototype.unity
-  artifactKey: Guid(48c8c36b1c1039f4ba4dbafcb6fe68d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/VRRoadPrototype.unity using Guid(48c8c36b1c1039f4ba4dbafcb6fe68d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e84d3c6d9862d1c6620c8dc3e521ba0') in 0.005502 seconds 
-  Import took 0.010035 seconds .
+  Time since last request: 12.612686 seconds.
+  path: Assets/Prefabs/Car.prefab
+  artifactKey: Guid(20e1b85b6df6b124d84350f52e4e075c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Car.prefab using Guid(20e1b85b6df6b124d84350f52e4e075c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78e9081b7132d5df37a0a794e183c479') in 0.010945 seconds 
+  Import took 0.015137 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000427 seconds.
-  path: Assets/Scenes/RoadPrototype.unity
-  artifactKey: Guid(b7fa8a77008554d4da2e384c3cc84675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/RoadPrototype.unity using Guid(b7fa8a77008554d4da2e384c3cc84675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8816d4897416817f8ff9084ae0929f3') in 0.005858 seconds 
-  Import took 0.009524 seconds .
+  Time since last request: 0.610571 seconds.
+  path: Assets/Prefabs/Car.prefab
+  artifactKey: Guid(20e1b85b6df6b124d84350f52e4e075c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Car.prefab using Guid(20e1b85b6df6b124d84350f52e4e075c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be4a29d1bc5a0e6dcf66150124d80605') in 0.009994 seconds 
+  Import took 0.014086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.537909 seconds.
+  path: Assets/Prefabs/Vehicles
+  artifactKey: Guid(5e75611b1c27b3045b3bab91435c7ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Vehicles using Guid(5e75611b1c27b3045b3bab91435c7ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f1a2b37dc620a50feb7cd063a3f8cfa') in 0.002584 seconds 
+  Import took 0.006762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046606 seconds.
+  path: Assets/Prefabs/Vehicles/ambulance.prefab
+  artifactKey: Guid(4e15d737b15db744ab069a2fe682c1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Vehicles/ambulance.prefab using Guid(4e15d737b15db744ab069a2fe682c1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3025b1ae210078d7d7f85889e8aff77a') in 0.011849 seconds 
+  Import took 0.016334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Prefabs/Vehicles/car_blue.prefab
+  artifactKey: Guid(5664d200842f6614f9855b91bb60b098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Vehicles/car_blue.prefab using Guid(5664d200842f6614f9855b91bb60b098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b65b9d330fb0ccba38002a77fff9f13b') in 0.008561 seconds 
+  Import took 0.011889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Prefabs/Vehicles/Horn.prefab
+  artifactKey: Guid(50973e8d789dfdb478ac3668bbea1d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Vehicles/Horn.prefab using Guid(50973e8d789dfdb478ac3668bbea1d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db84e4595dc5e2f547de4dc5a9723279') in 0.007986 seconds 
+  Import took 0.011009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Prefabs/Vehicles/bus_brown.prefab
+  artifactKey: Guid(de70d5d6c3a3b1940850f9faad307b71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Vehicles/bus_brown.prefab using Guid(de70d5d6c3a3b1940850f9faad307b71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4778676bc9c363ca7c55d0abdfd149a') in 0.011158 seconds 
+  Import took 0.014261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Prefabs/Vehicles/bus_blue.prefab
+  artifactKey: Guid(82fdd69f442d40a4497e9b4a56a43ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Vehicles/bus_blue.prefab using Guid(82fdd69f442d40a4497e9b4a56a43ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0da684ca5a9d569b676d6b86768dc08') in 0.009102 seconds 
+  Import took 0.012121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Prefabs/Vehicles/car_red.prefab
+  artifactKey: Guid(6a81db7a369c1354a9385cfa24f5e192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Vehicles/car_red.prefab using Guid(6a81db7a369c1354a9385cfa24f5e192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '515bb8a189b7d344ff54665d68c7d7a7') in 0.008873 seconds 
+  Import took 0.012049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Prefabs/Vehicles/car_green.prefab
+  artifactKey: Guid(3ba622f304af8f04b9ea970c4c0899d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Vehicles/car_green.prefab using Guid(3ba622f304af8f04b9ea970c4c0899d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '538c6d0f02dd5fe10dac90ba399a832c') in 0.012256 seconds 
+  Import took 0.015473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.138129 seconds.
+  path: Assets/Prefabs/Car.prefab
+  artifactKey: Guid(20e1b85b6df6b124d84350f52e4e075c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Car.prefab using Guid(20e1b85b6df6b124d84350f52e4e075c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f6a11619e97d28550da7ed911738cc1') in 0.011842 seconds 
+  Import took 0.016176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.057188 seconds.
+  path: Assets/Prefabs/Car.prefab
+  artifactKey: Guid(20e1b85b6df6b124d84350f52e4e075c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Car.prefab using Guid(20e1b85b6df6b124d84350f52e4e075c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1457f09a8958cb9172c7bbc938e1a3bb') in 0.008784 seconds 
+  Import took 0.013020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.884303 seconds.
+  path: Assets/Prefabs/Car.prefab
+  artifactKey: Guid(20e1b85b6df6b124d84350f52e4e075c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Car.prefab using Guid(20e1b85b6df6b124d84350f52e4e075c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9683ba6166a2936f3e92a78f68808bbf') in 0.009335 seconds 
+  Import took 0.013534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.082254 seconds.
+  path: Assets/Prefabs/Car.prefab
+  artifactKey: Guid(20e1b85b6df6b124d84350f52e4e075c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Car.prefab using Guid(20e1b85b6df6b124d84350f52e4e075c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f63daa37a6a1289427cbdf2f175900ac') in 0.019218 seconds 
+  Import took 0.023490 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007106 seconds.
+Registered in 0.007578 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.45 ms, found 7 plugins.
-Preloading 2 native plugins for Editor in 0.25 ms.
+Refreshing native plugins compatible for Editor in 1.29 ms, found 8 plugins.
+Preloading 2 native plugins for Editor in 0.11 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.559 seconds
+- Completed reload, in  0.795 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1560ms)
-		BeginReloadAssembly (109ms)
+	ReloadAssembly (795ms)
+		BeginReloadAssembly (92ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (1392ms)
-			LoadAssemblies (105ms)
+		EndReloadAssembly (662ms)
+			LoadAssemblies (67ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (493ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (59ms)
-			SetupLoadedEditorAssemblies (550ms)
+			SetupTypeCache (199ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (295ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (89ms)
-				ProcessInitializeOnLoadAttributes (383ms)
-				ProcessInitializeOnLoadMethodAttributes (59ms)
-				AfterProcessingInitializeOnLoad (9ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (186ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 1.69 ms, found 7 plugins.
-Preloading 2 native plugins for Editor in 0.18 ms.
-Unloading 2882 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 120.1 MB.
-System memory in use after: 120.3 MB.
+Refreshing native plugins compatible for Editor in 1.27 ms, found 8 plugins.
+Preloading 2 native plugins for Editor in 0.11 ms.
+Unloading 3114 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.2 MB.
+System memory in use after: 131.4 MB.
 
-Unloading 87 unused Assets to reduce memory usage. Loaded Objects now: 3313.
-Total: 9.604600 ms (FindLiveObjects: 0.461600 ms CreateObjectMapping: 0.246300 ms MarkObjects: 8.816900 ms  DeleteObjects: 0.077500 ms)
+Unloading 91 unused Assets to reduce memory usage. Loaded Objects now: 3566.
+Total: 5.892200 ms (FindLiveObjects: 0.260400 ms CreateObjectMapping: 0.075700 ms MarkObjects: 5.494900 ms  DeleteObjects: 0.060200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -212,99 +313,51 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 41.103870 seconds.
-  path: Assets/Prefabs/Car.prefab
-  artifactKey: Guid(20e1b85b6df6b124d84350f52e4e075c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Car.prefab using Guid(20e1b85b6df6b124d84350f52e4e075c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1c0e6272732520152fec46dd2fba402') in 0.273078 seconds 
-  Import took 0.278052 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/Prefabs/Water.prefab
-  artifactKey: Guid(129e0be8ad7c2554f884224ed1ab63eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Water.prefab using Guid(129e0be8ad7c2554f884224ed1ab63eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56f5ea65f2f89ff19405ef64399072f2') in 0.111431 seconds 
-  Import took 0.115619 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/Prefabs/Grass.prefab
-  artifactKey: Guid(5240aa05764abdf4cb68df53be0fd72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Grass.prefab using Guid(5240aa05764abdf4cb68df53be0fd72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed78ed4e40076f2cecde931031657aa8') in 0.015735 seconds 
-  Import took 0.021663 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000410 seconds.
-  path: Assets/Prefabs/XR Rig.prefab
-  artifactKey: Guid(3f128a725281625409b292b6fbb5abfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/XR Rig.prefab using Guid(3f128a725281625409b292b6fbb5abfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e36ef847453f30148137d872494c523') in 0.072961 seconds 
-  Import took 0.077704 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000308 seconds.
-  path: Assets/Prefabs/Grass.prefab
-  artifactKey: Guid(5240aa05764abdf4cb68df53be0fd72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Grass.prefab using Guid(5240aa05764abdf4cb68df53be0fd72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed78ed4e40076f2cecde931031657aa8') in 0.011166 seconds 
-  Import took 0.016776 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000426 seconds.
-  path: Assets/Prefabs/Road.prefab
-  artifactKey: Guid(55f7d47dc90ecdf47909ae83f391e5d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Road.prefab using Guid(55f7d47dc90ecdf47909ae83f391e5d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bce6aa011b3eb66175509bac76f54e0c') in 0.023040 seconds 
-  Import took 0.028899 seconds .
-
-========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.008329 seconds.
+Registered in 0.007564 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.20 ms, found 7 plugins.
-Preloading 2 native plugins for Editor in 0.14 ms.
+Refreshing native plugins compatible for Editor in 1.34 ms, found 8 plugins.
+Preloading 2 native plugins for Editor in 0.10 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.004 seconds
+- Completed reload, in  0.794 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1005ms)
-		BeginReloadAssembly (112ms)
+	ReloadAssembly (795ms)
+		BeginReloadAssembly (87ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (37ms)
-		EndReloadAssembly (836ms)
-			LoadAssemblies (85ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (665ms)
+			LoadAssemblies (65ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (302ms)
+			SetupTypeCache (196ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (309ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (297ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (56ms)
-				ProcessInitializeOnLoadAttributes (210ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (188ms)
 				ProcessInitializeOnLoadMethodAttributes (31ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 1.22 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 1.26 ms, found 8 plugins.
 Preloading 2 native plugins for Editor in 0.09 ms.
-Unloading 2882 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 123.3 MB.
-System memory in use after: 123.5 MB.
+Unloading 3114 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.2 MB.
+System memory in use after: 131.5 MB.
 
-Unloading 87 unused Assets to reduce memory usage. Loaded Objects now: 3324.
-Total: 6.447700 ms (FindLiveObjects: 0.277200 ms CreateObjectMapping: 0.128500 ms MarkObjects: 6.008900 ms  DeleteObjects: 0.031700 ms)
+Unloading 91 unused Assets to reduce memory usage. Loaded Objects now: 3569.
+Total: 6.347500 ms (FindLiveObjects: 0.275200 ms CreateObjectMapping: 0.077000 ms MarkObjects: 5.930000 ms  DeleteObjects: 0.064200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -317,51 +370,115 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 78.623878 seconds.
+  path: Assets/Engines/Misc SFX/Carn Horn 1.wav
+  artifactKey: Guid(ec32ee6300414d44e8296123359dc4be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Engines/Misc SFX/Carn Horn 1.wav using Guid(ec32ee6300414d44e8296123359dc4be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '495a464d8d1d29d68f7750482c0bf9f9') in 0.047871 seconds 
+  Import took 0.053134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Engines/Misc SFX/Carn Horn 2.wav
+  artifactKey: Guid(016305ef1931b314795872a33dd5286d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Engines/Misc SFX/Carn Horn 2.wav using Guid(016305ef1931b314795872a33dd5286d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c170bd47232c5edf6b0990ad272c567') in 0.012664 seconds 
+  Import took 0.016413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.149972 seconds.
+  path: Assets/Resources/ONSPSettings.asset
+  artifactKey: Guid(c396e9a3934bb9b4ebc2d1f44b4ff09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ONSPSettings.asset using Guid(c396e9a3934bb9b4ebc2d1f44b4ff09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfab04ec82d40cd50db1148b8881a0e8') in 0.004469 seconds 
+  Import took 0.008548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Resources/OvrAvatarSettings.asset
+  artifactKey: Guid(71e27942f5619cd41ad6ecf9d50fa6e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/OvrAvatarSettings.asset using Guid(71e27942f5619cd41ad6ecf9d50fa6e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd05225b07745b52146ecae9d23293dc1') in 0.002962 seconds 
+  Import took 0.005880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Resources/OVRPlatformToolSettings.asset
+  artifactKey: Guid(a71cedaeeebbd0f42b0caeec50350302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/OVRPlatformToolSettings.asset using Guid(a71cedaeeebbd0f42b0caeec50350302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea7fce76aaaae7d564dbd86abf9b31a1') in 0.003351 seconds 
+  Import took 0.006372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Resources/OVRBuildConfig.asset
+  artifactKey: Guid(37115f1a47c0fca4281e4a360c22547a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/OVRBuildConfig.asset using Guid(37115f1a47c0fca4281e4a360c22547a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a692074859d0e68cb2d4f31cb492c0e') in 0.002549 seconds 
+  Import took 0.005117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 83.578074 seconds.
+  path: Assets/Scripts/RoadScript.cs
+  artifactKey: Guid(370abdd03a3cff347bb12c277daee10d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoadScript.cs using Guid(370abdd03a3cff347bb12c277daee10d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16657c3c2e398d217e99136188b9974f') in 0.004518 seconds 
+  Import took 0.009403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.192247 seconds.
+  path: Assets/Prefabs/Vehicles/ambulance.prefab
+  artifactKey: Guid(4e15d737b15db744ab069a2fe682c1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Vehicles/ambulance.prefab using Guid(4e15d737b15db744ab069a2fe682c1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58347e09b03e9cf7bd6f6aea88de6361') in 0.020816 seconds 
+  Import took 0.025466 seconds .
+
+========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.154407 seconds.
+Registered in 0.007698 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.18 ms, found 7 plugins.
-Preloading 2 native plugins for Editor in 0.20 ms.
+Refreshing native plugins compatible for Editor in 1.38 ms, found 8 plugins.
+Preloading 2 native plugins for Editor in 0.11 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.561 seconds
+- Completed reload, in  0.792 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1562ms)
-		BeginReloadAssembly (134ms)
+	ReloadAssembly (792ms)
+		BeginReloadAssembly (95ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (45ms)
-		EndReloadAssembly (1344ms)
-			LoadAssemblies (126ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (655ms)
+			LoadAssemblies (67ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (436ms)
-			ReleaseScriptCaches (4ms)
-			RebuildScriptCaches (97ms)
-			SetupLoadedEditorAssemblies (422ms)
+			SetupTypeCache (194ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (293ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (81ms)
-				ProcessInitializeOnLoadAttributes (283ms)
-				ProcessInitializeOnLoadMethodAttributes (41ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				BeforeProcessingInitializeOnLoad (68ms)
+				ProcessInitializeOnLoadAttributes (184ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 1.37 ms, found 7 plugins.
-Preloading 2 native plugins for Editor in 0.13 ms.
-Unloading 2882 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 123.3 MB.
-System memory in use after: 123.5 MB.
+Refreshing native plugins compatible for Editor in 1.24 ms, found 8 plugins.
+Preloading 2 native plugins for Editor in 0.10 ms.
+Unloading 3114 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.3 MB.
+System memory in use after: 131.6 MB.
 
-Unloading 87 unused Assets to reduce memory usage. Loaded Objects now: 3326.
-Total: 8.236800 ms (FindLiveObjects: 0.310300 ms CreateObjectMapping: 0.178900 ms MarkObjects: 7.695900 ms  DeleteObjects: 0.049900 ms)
+Unloading 91 unused Assets to reduce memory usage. Loaded Objects now: 3575.
+Total: 5.956000 ms (FindLiveObjects: 0.272400 ms CreateObjectMapping: 0.078500 ms MarkObjects: 5.538500 ms  DeleteObjects: 0.065700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -373,4 +490,21 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 167.670393 seconds.
+  path: Assets/Animations/PlayerCube.controller
+  artifactKey: Guid(df18ccbd86959e541a6f41be6e5cdb4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/PlayerCube.controller using Guid(df18ccbd86959e541a6f41be6e5cdb4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The legacy Animation Clip "Jump" cannot be used in the State "Jump". Legacy AnimationClips are not allowed in Animator Controllers.
+ -> (artifact id: '4dbea52f6d3e8b78ec3bcd83d29679e2') in 0.015885 seconds 
+  Import took 0.020909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.847197 seconds.
+  path: Assets/Animations/Idle.anim
+  artifactKey: Guid(ca5ab1a3c983da945b955f470d0b3461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Idle.anim using Guid(ca5ab1a3c983da945b955f470d0b3461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '878db79ee123e9de5ec4904c3936536d') in 0.004737 seconds 
+  Import took 0.008678 seconds .
+
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

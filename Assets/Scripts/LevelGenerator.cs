@@ -10,12 +10,14 @@ public class LevelGenerator : MonoBehaviour
     public GameObject Road;
     Dictionary<GameObject, int> gameObjectMaxValues = new Dictionary<GameObject, int>();
     GameObject[] gameObjects;
-    float distanceToGenerate = 50;
+    public float distanceToGenerate = 50;
     Vector3 currentPos = new Vector3(0,0,-20);
-    FixedSizedQueue<GameObject> currentItems = new FixedSizedQueue<GameObject>(60);
+    public int QueueSize = 100;
+    FixedSizedQueue<GameObject> currentItems;
     GameObject player;
     void Start()
     {
+        currentItems = new FixedSizedQueue<GameObject>(QueueSize);
         currentItems.OnDequeue = (g) => Destroy(g);
         player = GameObject.FindGameObjectWithTag("Player");
         gameObjects = new[]

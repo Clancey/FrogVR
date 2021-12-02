@@ -11,4 +11,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/VRRoadPrototype.unity
     guid: 48c8c36b1c1039f4ba4dbafcb6fe68d1
-  m_configObjects: {}
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: c8212f158f402a24282a532a9f2fadb8,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 1fabbf5a86bdb204f94c416916d2a324,
+      type: 2}

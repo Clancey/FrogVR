@@ -64,7 +64,7 @@ public class VRMovement : MonoBehaviour
                 didStartJump = true;
             } else if(didStartJump)
             {
-                CacculatTarget();
+                CalculateTarget();
                 ///Jump!!!
                 Debug.Log($"Jumped: {cameraTransform.rotation.eulerAngles}");
                 didStartJump = false;
@@ -75,11 +75,10 @@ public class VRMovement : MonoBehaviour
         lastRotation = cameraTransform.localRotation;
     }
 
-    void CacculatTarget()
+    void CalculateTarget()
     {
         if (targetVector != transform.position)
             return;
-        var target = new Vector3();
         var x = 0;
         var z = 0;
         var angle = cameraTransform.rotation.eulerAngles.y;
